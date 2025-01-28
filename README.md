@@ -1,14 +1,13 @@
 # Electronic Clock with Alarm Function (Using SDK-1.1M)
 
 ## Project Objective
-This project is designed to create an electronic clock with an alarm function using the SDK-1.1M platform. The system uses the STM32F407VGT6 microcontroller and the MCP79411 RTC module for precise time tracking. The clock displays the current time on a graphical OLED display and allows users to set an alarm through a user interface. The settings are retained even when power is disconnected, thanks to the built-in battery of the RTC module.
+This project is designed to create an electronic clock using the SDK-1.1M platform. The system uses the STM32F407VGT6 microcontroller and the MCP79411 RTC module for precise time tracking. The clock displays the current time on a graphical OLED display and allows users to set the time via a user interface. The settings are retained even when power is disconnected, thanks to the built-in battery of the RTC module.
 
 ## Features
 - Display the current time in real-time.
-- Set the time and alarm via buttons.
-- Trigger the alarm at the set time with a flashing screen.
+- Set the time via buttons.
 - Power-saving mode to extend battery life.
-
+  
 ## Requirements
 
 ### Hardware
@@ -32,9 +31,7 @@ This project is designed to create an electronic clock with an alarm function us
    - Click **Replace/Install** to install the driver.
 
 ## Usage Instructions
-1. **Setting Time**: Use the keypad to set the current time on the clock.
-2. **Setting Alarm**: Use the keypad to set the alarm time.
-3. **Triggering Alarm**: The alarm will activate at the set time, and the screen will flash to alert the user.
+ **Setting Time**: Use the keypad to set the current time on the clock.
 
 ## Development Tools
 
